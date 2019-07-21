@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mineral_expansion",
+  "name": "Mineral_Expansion",
+  "description": "Mineral Extension Mod can make Minecraft more gameplay.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://www.mcbbs.net/home.php?mod=space&uid=870216",
+  "updateUrl": "http://www.mcbbs.net/thread-827641-1-1.html",
+  "authorList": ["myunco"],
+  "credits": "The Forge and FML guys",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

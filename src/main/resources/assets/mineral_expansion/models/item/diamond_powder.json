@@ -1,0 +1,6 @@
+{
+    "parent": "mineral_expansion:item/default",
+    "textures": {
+        "layer0": "mineral_expansion:items/diamond_powder"
+    }
+}
