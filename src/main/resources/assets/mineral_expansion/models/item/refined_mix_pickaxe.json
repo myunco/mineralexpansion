@@ -1,5 +1,5 @@
 {
-    "parent": "mineral_expansion:item/default",
+    "parent": "mineral_expansion:item/handheld",
     "textures": {
         "layer0": "mineral_expansion:items/refined_mix_pickaxe"
     }
