@@ -18,9 +18,9 @@ public class OreGenEventHandler {
 	public void onGenerateMinable(OreGenEvent.GenerateMinable event)
 	{
         if(event.getRand().nextInt(5) == 3) {
-            int posX = event.getPos().getX() + event.getRand().nextInt(16);
+            int posX = event.getPos().getX() + event.getRand().nextInt(15);
             int posY = 7 + event.getRand().nextInt(7);
-            int posZ = event.getPos().getZ() + event.getRand().nextInt(16);
+            int posZ = event.getPos().getZ() + event.getRand().nextInt(15);
             BlockPos blockpos = new BlockPos(posX, posY, posZ);
             worldGenMinable.generate(event.getWorld(), event.getRand(), blockpos);
         }
