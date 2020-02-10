@@ -23,7 +23,6 @@ public class OreGenEventHandler {
             int posZ = event.getPos().getZ() + event.getRand().nextInt(16);
             BlockPos blockpos = new BlockPos(posX, posY, posZ);
             worldGenMinable.generate(event.getWorld(), event.getRand(), blockpos);
-            //event.getWorld().setBlockState(blockpos,BlockLoader.mysteriousOre.getDefaultState(),2);
         }
     }
 }
